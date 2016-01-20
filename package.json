@@ -1,0 +1,32 @@
+{
+    "name": "pomo",
+    "version": "1.0.0",
+    "description": "simple pomodoro timer",
+    "main": "pomo.js",
+    "bin" : { "pomo" : "./pomo.js" },
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/surprisetalk/pomo.git"
+    },
+    "keywords": [
+	"pomodoro",
+	"pomo",
+	"timer",
+	"pmd",
+	"pom",
+	"kitchen",
+	"countdown"
+    ],
+    "author": "Taylor Sarrafian",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://github.com/surprisetalk/pomo/issues"
+    },
+    "homepage": "https://github.com/surprisetalk/pomo#readme",
+    "dependencies": {
+	"progress": "latest"
+    }
+}
