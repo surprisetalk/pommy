@@ -1,9 +1,9 @@
 {
-    "name": "pomo",
+    "name": "pomy",
     "version": "1.0.0",
-    "description": "simple pomodoro timer",
-    "main": "pomo.js",
-    "bin" : { "pomo" : "./pomo.js" },
+    "description": "pomodoro timer",
+    "main": "pomy.js",
+    "bin" : { "pomy" : "./pomy.js" },
     "scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -12,6 +12,7 @@
 	"url": "git+https://github.com/surprisetalk/pomo.git"
     },
     "keywords": [
+	"pomy",
 	"pomodoro",
 	"pomo",
 	"timer",
@@ -27,6 +28,7 @@
     },
     "homepage": "https://github.com/surprisetalk/pomo#readme",
     "dependencies": {
-	"progress": "latest"
+	"progress": "latest",
+	"commander": "latest"
     }
 }
