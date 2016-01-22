@@ -32,7 +32,7 @@ $ pommy -c "💁 " # in case you don't like airplanes...
 
 ``` bash
 
-$ pommy -t && pomo -b   # automatically start break
+$ pommy -t && pommy -b   # automatically start break
 
 ```
 
@@ -43,7 +43,7 @@ $ pommy -t && pomo -b   # automatically start break
 ``` bash
 
 $ sudo gem install terminal-notifier
-$ pommy && terminal-notifier -message "task finished" -title "pomo"
+$ pommy && terminal-notifier -message "task finished" -title "pommy"
 
 ```
 
@@ -51,7 +51,7 @@ $ pommy && terminal-notifier -message "task finished" -title "pomo"
 
 ``` bash
 
-$ pommy && notify-send "pomo task finished"
+$ pommy && notify-send "pommy task finished"
 
 ```
 
