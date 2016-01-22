@@ -1,9 +1,9 @@
 {
-    "name": "pomy",
+    "name": "pommy",
     "version": "1.0.0",
     "description": "pomodoro timer",
-    "main": "pomy.js",
-    "bin" : { "pomy" : "./pomy.js" },
+    "main": "pommy.js",
+    "bin" : { "pommy" : "./pommy.js" },
     "scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -12,7 +12,7 @@
 	"url": "git+https://github.com/surprisetalk/pomo.git"
     },
     "keywords": [
-	"pomy",
+	"pommy",
 	"pomodoro",
 	"pomo",
 	"timer",
@@ -24,11 +24,11 @@
     "author": "Taylor Sarrafian",
     "license": "ISC",
     "bugs": {
-	"url": "https://github.com/surprisetalk/pomo/issues"
+	"url": "https://github.com/surprisetalk/pommy/issues"
     },
-    "homepage": "https://github.com/surprisetalk/pomo#readme",
+    "homepage": "https://github.com/surprisetalk/pommy#readme",
     "dependencies": {
-	"progress": "latest",
-	"commander": "latest"
+	"commander": "latest",
+	"lapse": "latest"
     }
 }
