@@ -3,7 +3,7 @@
 
 pomodoro timer
 
-< screenshots coming soon >
+![alt text](https://raw.githubusercontent.com/surprisetalk/pommy/master/pommy.png "snakes on a plane")
 
 ## install
 
@@ -22,7 +22,7 @@ $ pommy -b       # 5-minute break
 $ pommy -B       # 15-minute break
 $ pommy -T 7.5   # timer for 7 minutes, 30 seconds
 $ pommy -m       # use 24-hour clock
-$ pommy -c "💁 "" # in case you don't like airplanes...
+$ pommy -c "💁 " # in case you don't like airplanes...
 
 ```
 
