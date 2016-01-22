@@ -1,6 +1,6 @@
 {
     "name": "pommy",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "pomodoro timer",
     "main": "pommy.js",
     "preferGlobal": "true",
@@ -10,7 +10,7 @@
     },
     "repository": {
 	"type": "git",
-	"url": "git+https://github.com/surprisetalk/pomo.git"
+	"url": "git+https://github.com/surprisetalk/pommy.git"
     },
     "keywords": [
 	"pommy",
