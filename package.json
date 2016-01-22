@@ -1,6 +1,6 @@
 {
     "name": "pommy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "pomodoro timer",
     "main": "pommy.js",
     "bin" : { "pommy" : "./pommy.js" },

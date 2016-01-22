@@ -1,4 +1,6 @@
 
+#! /usr/bin/env node
+
 var app = require('commander');
 var lapse = require('lapse');
 
