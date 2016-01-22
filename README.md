@@ -1,5 +1,5 @@
 
-# pomy
+# pommy
 
 pomodoro timer
 
@@ -7,16 +7,22 @@ pomodoro timer
 
 ## install
 
-< npm package coming soon >
+``` bash
+
+$ npm install -g pommy
+
+```
 
 ## use
 
 ``` bash
 
-pomo          # 25-minute task
-pomo -b       # 5-minute break
-pomo -B       # 15-minute break
-pomo -T 7.5   # timer for 7 minutes, 30 seconds
+$ pommy          # 25-minute task
+$ pommy -b       # 5-minute break
+$ pommy -B       # 15-minute break
+$ pommy -T 7.5   # timer for 7 minutes, 30 seconds
+$ pommy -m       # use 24-hour clock
+$ pommy -c "💁 "" # in case you don't like airplanes...
 
 ```
 
@@ -26,7 +32,7 @@ pomo -T 7.5   # timer for 7 minutes, 30 seconds
 
 ``` bash
 
-pomo -t && pomo -b   # automatically start break
+$ pommy -t && pomo -b   # automatically start break
 
 ```
 
@@ -36,8 +42,8 @@ pomo -t && pomo -b   # automatically start break
 
 ``` bash
 
-sudo gem install terminal-notifier
-pomo && terminal-notifier -message "task finished" -title "pomo"
+$ sudo gem install terminal-notifier
+$ pommy && terminal-notifier -message "task finished" -title "pomo"
 
 ```
 
@@ -45,12 +51,11 @@ pomo && terminal-notifier -message "task finished" -title "pomo"
 
 ``` bash
 
-pomo && notify-send "pomo task finished"
+$ pommy && notify-send "pomo task finished"
 
 ```
 
 ## credits
 
 * thanks to [@rstacruz](https://github.com/rstacruz) for making [pomo.js](https://github.com/rstacruz/pomo.js)
-* thanks to [@tj](https://github.com/tj) for making [node-progress](https://github.com/tj/node-progress)
 
