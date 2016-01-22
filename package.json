@@ -1,6 +1,6 @@
 {
     "name": "pommy",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "pomodoro timer",
     "main": "pommy.js",
     "preferGlobal": "true",
