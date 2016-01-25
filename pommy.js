@@ -56,4 +56,5 @@ var lapse_line = " " + lapse_start_tag + " #bar " + lapse_eta_tag + " ";
 
 lapse( pommy_duration * 60, { format: lapse_line,
 			      car_char: progress_char,
-			      road_char: cyan_dot } );
+			      road_char: cyan_dot,
+			      callback: process.exit } );
